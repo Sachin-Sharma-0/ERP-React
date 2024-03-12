@@ -14,7 +14,6 @@ Welcome to the ERP React Application, a simplified interface for an Enterprise R
 - [Folder Structure](#folder-structure)
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
@@ -32,9 +31,9 @@ The ERP React Application provides a user-friendly interface for managing key as
 
 3. **Orders Management**
    - List orders with details like order ID, customer name, order date, and status.
-   - (Optional) View order details, update order status, and delete orders.
+   - View order details, update order status, and delete orders.
 
-4. **Orders Calendar View (Optional)**
+4. **Orders Calendar View**
    - Calendar displaying orders based on expected delivery dates.
    - Click on a date to view orders due for delivery that day.
 
@@ -66,7 +65,9 @@ The ERP React Application provides a user-friendly interface for managing key as
 
 Run the following command to start the development server:
 
+```bash
 npm start
+```
 
 The application will be accessible at http://localhost:3000.
 
@@ -82,7 +83,7 @@ The project is organized into the following directories and their respective pur
 - **`src/`**: Contains the source code for the React application.
   - **`components/`**: Reusable React components used throughout the application.
   - **`pages/`**: React components representing different pages of the application (Dashboard, Products, Orders, Calendar).
-  - **`data/`**: Mock data used for development and testing.
+  - **`data/`**: Mock data used for development and testing(Future Use).
   - **`styles/`**: CSS files or a styling solution for styling React components.
   - **`App.js`**: The main entry point for the React application.
   - **`index.js`**: The file that renders the React application into the HTML file.
@@ -90,7 +91,34 @@ The project is organized into the following directories and their respective pur
 - **`package.json`**: Defines the project's metadata and dependencies.
 - **`README.md`**: The main documentation file.
 - **`.gitignore`**: Specifies files and directories that should be ignored by Git.
-- **`LICENSE`**: The license file specifying the terms under which the project is distributed.
-- **`CONTRIBUTING.md`**: Guidelines for contributing to the project.
 
-## ScreenShots
+## Screenshots
+
+Below are screenshots demonstrating different features of the ERP React Application:
+
+### Dashboard
+
+![Dashboard](/screenshots/Dashboard.jpg)
+*Caption: Overview of key metrics and features.*
+
+### Products Management
+
+![Products Management](/screenshots/Product1.jpg)
+*Caption: List of products with details such as name, category, price, and stock quantity.*
+
+![Products Management](/screenshots/Product2edit.jpg)
+*Caption: Editing option.*
+
+### Orders Management
+
+![Orders Management](/screenshots/Order.jpg)
+*Caption: List of orders with details like order ID, customer name, order date, and status.*
+
+### Orders Calendar View
+
+![Calendar View](/screenshots/Calendar.jpg)
+*Caption: Calendar displaying orders based on expected delivery dates.*
+
+## Contributing
+
+If you would like to contribute to this project, please feel free to do.
