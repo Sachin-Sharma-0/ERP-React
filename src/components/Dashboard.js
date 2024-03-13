@@ -1,7 +1,7 @@
 // Dashboard.js
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Dashboard.css'; // Import your styles
+import './Dashboard.css';
 
 const Dashboard = ({ totalProducts, totalOrders }) => {
   return (
