@@ -39,7 +39,6 @@ h1, h2 {
   color: #fff;
 }
 
-/* Updated styles for better visibility */
 .react-calendar__month-view__days__day {
   color: #333;
 }
@@ -60,7 +59,6 @@ h1, h2 {
   background-color: #1b4965;
 }
 
-/* Additional styling for better visibility */
 .orders-for-date {
   text-align: center;
 }
