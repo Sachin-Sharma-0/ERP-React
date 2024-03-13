@@ -1,6 +1,6 @@
 // Products.js
 import React, { useState } from 'react';
-import './Products.css'; // Import your styles
+import './Products.css';
 
 
 const Products = () => {
@@ -14,13 +14,13 @@ const Products = () => {
   const [editProduct, setEditProduct] = useState(null);
 
   const handleAddProduct = () => {
-    // Implement logic to add a new product
+    // logic to add a new produc
     const newProduct = { id: products.length + 1, name: 'New Product', category: '', price: 0, stock: 0 };
     setProducts([...products, newProduct]);
   };
 
   const handleEditProduct = (productId, updatedProduct) => {
-    // Implement logic to edit a product
+    // logic to edit a product
     const updatedProducts = products.map((product) =>
       product.id === productId ? { ...product, ...updatedProduct } : product
     );
@@ -29,7 +29,7 @@ const Products = () => {
   };
 
   const handleDeleteProduct = (productId) => {
-    // Implement logic to delete a product
+    // logic to delete a product
     const updatedProducts = products.filter((product) => product.id !== productId);
     setProducts(updatedProducts);
   };
