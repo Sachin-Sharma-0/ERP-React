@@ -4,8 +4,8 @@ import Dashboard from '../components/Dashboard';
 
 const DashboardPage = () => {
   // Mock data for total products and orders
-  const totalProducts = 50; // Replace with actual count
-  const totalOrders = 30; // Replace with actual count
+  const totalProducts = 50; 
+  const totalOrders = 30; 
 
   return (
     <div>
