@@ -1,6 +1,6 @@
 // Orders.js
 import React, { useState } from 'react';
-import './Orders.css'; // Import your styles
+import './Orders.css';
 
 const Orders = () => {
   // Mock data for orders
@@ -11,13 +11,11 @@ const Orders = () => {
   ]);
 
   const handleViewDetails = (orderId) => {
-    // Implement logic to view order details (optional)
     const selectedOrder = orders.find((order) => order.id === orderId);
     console.log('View order details:', selectedOrder);
   };
 
   const handleUpdateStatus = (orderId, newStatus) => {
-    // Implement logic to update order status (optional)
     const updatedOrders = orders.map((order) =>
       order.id === orderId ? { ...order, status: newStatus } : order
     );
@@ -25,7 +23,6 @@ const Orders = () => {
   };
 
   const handleDeleteOrder = (orderId) => {
-    // Implement logic to delete an order (optional)
     const updatedOrders = orders.filter((order) => order.id !== orderId);
     setOrders(updatedOrders);
   };
